@@ -2,13 +2,14 @@
 
 ## Project Overview
 
-I completed this project as part of CS 492 (Mobile Software Development) during Summer 2022 while I was a student at Oregon State University. **Students in that class were granted express permission to post the source code they submitted for this project publicly for use in professional portfolios.**
+This portfolio project was for CS 492 (Mobile Software Development) during Summer 2022 at Oregon State University.
+**Students were granted permission to post the source code they submitted for this project publicly for use in professional portfolios.**
 
 The project assignment required the creation of this mobile app called "Wasteagram" to allow food service workers to document food waste at the end of each day. Students were required to use the [Flutter SDK](https://flutter.dev/), a cross-platform mobile app development SDK created by Google that uses the [Dart programming language](https://dart.dev/). The app allows for taking or uploading a photo of wasted food and inputting the quantity of food wasted. The current date and device location are also captured with the new post. A main "list screen" then shows all posts, allowing users to tap on any post to see more information. Data is stored in [Google Firebase Cloud Firestore](https://firebase.google.com/products/firestore), and images are stored in [Google Firebase Cloud Storage](https://firebase.google.com/products/storage).
 
 ## Repository Structure
 
-The following two folders contain the files I myself created when coding this project:
+The following two folders contain the files I created when coding this project:
 - [lib/](lib/): Contains the code for the app itself, including the UI and logic for retrieving and storing data with Firebase.
 - [test/](test/): Contains unit tests for testing a few functions of the FoodWastePost model class.
 
