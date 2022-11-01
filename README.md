@@ -4,8 +4,8 @@
 
 This portfolio project was for CS 492 (Mobile Software Development) during Summer 2022 at Oregon State University.
 **Students were granted permission to post the source code they submitted for this project publicly for use in professional portfolios.**
-View a video of the app and code overview here:
-https://youtu.be/zudr9gFFxAA
+- View a video of the app and code overview here: https://youtu.be/zudr9gFFxAA
+-  To see all requirements go to [requirements.md](/requirements.md).
 
 The project assignment required the creation of this mobile app called "Wasteagram" to allow food service workers to document food waste at the end of each day. Students were required to use the [Flutter SDK](https://flutter.dev/), a cross-platform mobile app development SDK created by Google that uses the [Dart programming language](https://dart.dev/). The app allows for taking or uploading a photo of wasted food and inputting the quantity of food wasted. The current date and device location are also captured with the new post. A main "list screen" then shows all posts, allowing users to tap on any post to see more information. Data is stored in [Google Firebase Cloud Firestore](https://firebase.google.com/products/firestore), and images are stored in [Google Firebase Cloud Storage](https://firebase.google.com/products/storage).
 
